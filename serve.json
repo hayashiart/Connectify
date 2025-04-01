@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+      {
+        "source": "/{*.jpg,*.jpeg,*.png,*.gif,*.webp,*.mp4,*.webm,*.ogg,*.mov}",
+        "destination": "/:splat"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
