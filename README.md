@@ -3,7 +3,7 @@
 Connectify is a modern, responsive social network web application designed to let users create personalized profiles, share messages, images, GIFs, and music, and interact in real-time. Inspired by classic social platforms, it emphasizes an intuitive interface and secure user management with Firebase.
 
 ![Project Structure](./images/connectifyHome.png)
-![Project Structure](./images/connectifyInscription.png)
+![Project Structure](./images/connectifyConnexion.png)
 ![Project Structure](./images/connectifyInscription.png)
 ![Project Structure](./images/connectifyProfile.png)
 
