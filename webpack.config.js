@@ -20,6 +20,18 @@ require("dotenv").config({ path: ".env.local" }); // Charge les variables d'envi
 // Exportation de la configuration Webpack
 module.exports = {
   mode: "production", // Définition du mode Webpack : "development" (debug) ou "production" (optimisé pour la mise en ligne)
+  resolve: {
+  fallback: {
+    "process": require.resolve("process/browser"),
+    "buffer": false,
+    "stream": require.resolve("stream-browserify"),
+    "crypto": require.resolve("crypto-browserify"),
+  },
+  extensions: ['.js', '.jsx', '.mjs'],
+},
+experiments: {
+  outputModule: false,
+},
 
   entry: "./src/index.js", // Définit le fichier principal qui servira de point d'entrée pour Webpack
 
